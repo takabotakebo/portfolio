@@ -1,0 +1,324 @@
+
+
+img {width: 100%;
+    position: absolute;
+    
+}
+
+
+#wrapper {width: 100vw;
+    height: auto;
+    background-image: url(img/zara.png);
+    background-attachment: fixed;
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+}
+
+#header{
+    height:30px;
+    width: 100vw;
+    background-color:dimgray;
+}
+
+.headerwordscolor{padding-left: 1%;
+    padding-top: 0.2%;
+    color:white;
+}
+
+
+
+
+
+
+
+#top{
+    position:relative;
+    width: 100vw;
+    max-height:716px;
+    height: 50vw;
+    
+    
+}
+
+#top1{position: absolute;
+      width: 12.5%;
+      height: auto;
+      float:left;
+      margin-top:6%;
+      margin-left: 21.7%;
+}
+
+#top2{position: absolute;
+      width: 12.5%;
+      height: auto;
+      float:left;
+      margin-left: 36.2%;
+      margin-top:6%;
+}
+
+#top3{position: absolute;
+      width: 12.5%;
+      height: auto;
+      float:left;
+      margin-left: 51.1%;
+      margin-top:6%;
+}
+
+#top4{position: absolute;
+    width: 12.5%;
+      height: auto;
+      float:left;
+      margin-left: 65.7%;
+      margin-top:6%;
+}
+
+
+
+
+#about{
+      position: relative;
+    width: 100vw;
+    height: 92vw;
+    min-height: 80vh;
+    margin-bottom: 5vw;
+    
+}
+
+.he{font-size:2vw;}
+
+.pr{font-size:1vw;}
+
+.life{font-size:1vw;
+line-height: 1.5;}
+
+#skillpic{position: absolute;
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+.headicon {position: absolute;
+      height: auto;
+      width: 23.4%;
+      margin-left: 38.3%;
+      margin-top: 2%;
+    
+}
+
+#mypic{position: absolute;
+      height: auto;
+      width: 66.3%;
+      margin-left:16.9%;
+      margin-top:13%;}
+
+#prof{position: relative;
+    width: auto;
+height: auto;}
+
+#prof1{position: absolute;
+    height: auto;
+    max-width: 38%;
+    margin-left:9.4%;
+      margin-top:50%;}
+
+
+#prof2{position: absolute;
+    height: auto;
+    width: 41.6%;
+    margin-left:51%;
+    margin-top:50%;}
+    
+    
+
+
+
+#work{position: relative;
+     width: 100vw;
+     height: 60vw; 
+    margin-top: 8%;
+}
+
+
+#kodomo{position: absolute;
+      width: 22.9%;
+      height: auto;
+      float:left;
+      margin-top:13.9%;
+      margin-left: 10.8%;
+}
+
+#para{position: absolute;
+      width: 22.9%;
+      height: auto;
+      float:left;
+      margin-top:13.9%;
+      margin-left: 38.6%;
+}
+
+#ycs{position: absolute;
+      width: 22.9%;
+      height: auto;
+      float:left;
+      margin-top:13.9%;
+      margin-left: 67.1%;
+}
+
+
+#rel{position: absolute;
+      width: 22.9%;
+      height: auto;
+      float:left;
+      margin-top:34%;
+      margin-left: 10.8%;
+}
+
+
+#tech{position: absolute;
+      width:22.9%;
+      height: auto;
+      float:left;
+      margin-top:34%;
+      margin-left: 38.6%;
+}
+
+
+#mov{position: absolute;
+      width: 22.9%;
+      height: auto;
+      float:left;
+      margin-top:34%;
+      margin-left: 67.1%;
+}
+
+
+#info{position: absolute;
+    width: 100vw;
+    height: 52vw;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.close{position: absolute;
+    color: white;
+    width:30vw;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 1%;
+    font-size: 1vw;
+}
+
+#kodomoinfo{position:absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    
+    
+}
+
+#parainfo{position: absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    
+    
+}
+
+
+#ycsinfo{position: absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    
+    
+}
+
+
+#relinfo{position: absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    
+    
+}
+
+
+
+#techinfo{position: absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    
+    
+}
+
+
+#movinfo{position: absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    
+    
+}
+
+#contact{
+      position: relative;
+    width: 100vw;
+    height: 31vw;
+    
+}
+
+#contactbox{position: absolute;
+    width: 40%;
+    height: 23%;
+    margin-left: 30%;
+    margin-top: 15%;
+    border: 3px lightgray solid;
+}
+
+#fb{position: absolute;
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+#gm{position: absolute;
+    width: 15%;
+    margin-left:42.5%;
+    margin-top: 0%;
+}
+
+#sc{position: absolute;
+    width: 15%;
+    margin-left:75%;
+    margin-top: 1%;
+}
+
+#ma{position: absolute;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 24%;
+    font-size: 1vw;
+    color: grey;
+}
+
+#backtop{
+    text-align: center;
+    margin-bottom:40px;
+    margin-top: 30px;
+    font-size: 1vw;
+}
+
+
+#backtop2{
+    text-align: center;
+    margin-bottom:40px;
+    margin-top: 30px;
+    font-size: 1vw;
+}
