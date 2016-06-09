@@ -12,6 +12,9 @@ img {width: 100%;
     background-attachment: fixed;
     background-position:50% 50%;
     background-repeat: no-repeat;
+    font-family: 'Hiragino Mincho Pro', Meiryo, serif;
+    font-size: 90%;
+    
 }
 
 #header{
@@ -31,7 +34,7 @@ img {width: 100%;
 
 
 
-#top{
+#top{float: left;
     position:relative;
     width: 100vw;
     max-height:716px;
@@ -75,8 +78,8 @@ img {width: 100%;
 
 
 
-#about{
-      position: relative;
+#about{position: relative;
+    float: left;
     width: 100vw;
     height: 92vw;
     min-height: 80vh;
@@ -84,14 +87,24 @@ img {width: 100%;
     
 }
 
-.he{font-size:2vw;}
+.sk{margin-top:10%;
+    font-size:22px;
+}
+.he{margin-top: 0%;
+    font-size:22px;}
 
+.name{padding-left: 6%;
+font-size: 150%;}
+
+.nf{padding-left:8%;
+    font-size: 50%;}
 
 #skillpic{position: absolute;
-    width: 36%;
+    width: 30%;
     height: 10%;
-    margin-left:2%;
+    margin-left:3%;
     margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 .headicon {position: absolute;
@@ -108,7 +121,12 @@ img {width: 100%;
       margin-left:16.9%;
       margin-top:13%;}
 
-#bio{position: relative;
+#bio{display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -o-flexbox;
+    display: flexbox;
+    position: relative;
     width: auto;
 height: auto;}
 
@@ -137,7 +155,9 @@ padding:0 0 0 0;
 
 
 #work{position: relative;
-     width: 100vw;
+     
+    float: left;
+    width: 100vw;
      height: 60vw; 
     margin-top: 8%;
 }
@@ -269,8 +289,8 @@ padding:0 0 0 0;
     
 }
 
-#contact{
-      position: relative;
+#contact{position: relative;
+    float: left;
     width: 100vw;
     height: 31vw;
     
@@ -287,7 +307,7 @@ padding:0 0 0 0;
 #fb{position: absolute;
     width: 15%;
     margin-left: 10%;
-    margin-top: 1%;
+    margin-top: 0.5%;
 }
 
 #gm{position: absolute;
